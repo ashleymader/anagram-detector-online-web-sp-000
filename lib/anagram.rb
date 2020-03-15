@@ -12,10 +12,7 @@ class Anagram
     word_array.each do |new|
     new_array = new.split("")
     sorted_array = new_array.sort
-    if new_array == sorted_array
-      puts new_array
     end
-  end
   end
 
 end
