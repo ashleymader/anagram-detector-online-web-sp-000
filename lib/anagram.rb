@@ -11,7 +11,7 @@ class Anagram
     new_array = []
     word_array.each do |new|
     new_array = new.split("")
-    sorted array = new_array.sort
+    sorted_array = new_array.sort
     new_array << sorted_array
     end
   end
