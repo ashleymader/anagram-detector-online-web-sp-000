@@ -11,8 +11,7 @@ class Anagram
     array = []
     @word.each do |new|
       new.chars.to_a.sort.join
-    end
-      array << new
+    
     end
     
   end
