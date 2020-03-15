@@ -12,7 +12,8 @@ class Anagram
     word_array.each do |new|
     new_array = new.split("")
     sorted_array = new_array.sort
-    new_array << sorted_array
+    if new_array == sorted_array
+      puts new_array
     end
   end
 
