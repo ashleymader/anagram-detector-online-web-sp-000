@@ -12,7 +12,7 @@ class Anagram
     word.split('').sort == new.split('').sort r
     return new
     end
-    
   end
+
 
 end
