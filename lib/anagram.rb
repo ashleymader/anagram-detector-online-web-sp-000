@@ -9,7 +9,7 @@ class Anagram
   
   def match
     @word.each do |new|
-      new.split.sort.join
+      new.chars.to_a.sort.join
     end
   end
 
