@@ -11,6 +11,6 @@ class Anagram
     word_array.each do |new|
     word_array.split('').sort == new.split('').sort 
   end
-
+end
 
 end
