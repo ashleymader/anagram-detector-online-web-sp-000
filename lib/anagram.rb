@@ -16,5 +16,6 @@ class Anagram
       puts new_array
     end
   end
+  end
 
 end
